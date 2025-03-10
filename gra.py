@@ -20,7 +20,7 @@ def flyRocket():
     global y_trans, view_offset
     if fly:
         y_trans += 0.025  # Adjust the speed of upward movement
-        view_offset += 0.05  # Move the rocket further into space
+        
 
 # Reset the rocket
 def reset():
